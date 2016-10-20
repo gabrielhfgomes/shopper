@@ -23,10 +23,7 @@ ul li a,a{
 a{
 	color:#eb4800;
 }
-a:hover{
-	color:#fd4004;
-	text-decoration:none;
-}
+
 .img-al{
 	margin: 0 10px 10px 0;
 	float:left;
@@ -302,7 +299,7 @@ section.navbar{
 	margin-right: 0px;
 }
 #menu > ul > li > a {
-	font-size: 11px;
+	font-size: 20px;
 	color: #111;
 	display: block;
 	text-transform: uppercase;
@@ -316,11 +313,7 @@ section.navbar{
 #menu > ul > li.active > a{
 	color:#fff;
 }
-#menu > ul a:hover{
-	color: #eb4800; 
-	text-decoration:none;
-}
-#menu .current{color: #eb4800 !important;}
+
 
 #menu ul ul {
     background: none repeat scroll 0 0 #eee;
@@ -349,10 +342,9 @@ section.navbar{
 #menu ul ul a{
     display: block;
     padding:7px 10px;
-    color: #333;
-    font-size: 12px;
+    font-size: 9px;
 }
-#menu ul ul a:hover,#menu > ul > li:hover > a{color: #fff;background-color:#eb4800}
+
 #menu ul ul a:hover{background-color:#eb4800;}
 #menu > ul > li:hover {visibility: inherit;}
 #menu li:hover {visibility: inherit;}
